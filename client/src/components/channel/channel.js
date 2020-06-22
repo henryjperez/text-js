@@ -31,7 +31,6 @@ function Channel({ user, channel_id }) {
 				</div>
 			</div>
 			
-			<hr className="list-line" />
 		
 		</li>
 

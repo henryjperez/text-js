@@ -5,10 +5,13 @@
 }
 
 .channel-list {
+	height: 100%;
 	color: var(--dark-them-font-color);
+	padding: 0px 20px 0px 10px;
 	padding-bottom: calc(var(--channel-element-height) * 1.5);
 	padding-top: calc(var(--nav-chat-bar-height) + 2%);
 	background-color: var(--body-dark);
+
 }
 
 .channel-list-wrapper-true {

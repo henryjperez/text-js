@@ -12,7 +12,7 @@ const App = () => {
 
 	return (
 	<ContextProvider>
-		<Router>
+		<Router basename={ '/text-js' }>
 			<Switch>
 				<Route path="/" exact component={ Login } />
 				<Route path="/signup" component={ SignUp } />

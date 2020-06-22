@@ -21,15 +21,19 @@ function ChannelList() {
 	return(
 		<div className={ renderChat? "channel-list-wrapper-true": "channel-list-wrapper-false" }>
 			<section className="channels-nav-bar" >
-				<NavChat titleName={ "Welcome, " + sessionVariables.username } menu="...">
-					<DropdownMenu>
+				<NavChat
+				titleName={ "Welcome, " + sessionVariables.username }
+				menu="..."
+				styleProp="display-none-menu"
+				stylePropNavShape="nav-shape-channels">
+					<DropdownMenu styleProp="display-none-menu">
 						<Switch />
 						<LogOut />
 					</DropdownMenu>
 				</NavChat>
 			</section>
 			
-			<section>
+			<section className="channel-list-section">
 				<ul className="channel-list">
 
 					{
@@ -48,7 +52,7 @@ function ChannelList() {
 					
 				</ul>
 			</section>
-			<section>
+			<section className="new-channel-section">
 				<NewChannelButton>
 					<NewChannelForm />
 				</NewChannelButton>

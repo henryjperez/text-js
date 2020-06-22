@@ -5,7 +5,7 @@ import { GlobalContext } from '../../context';
 
 
 
-function NavChat({ titleName, menu, children, channel_id, setMessagesArray }) {
+function NavChat({ titleName, menu, children, channel_id, setMessagesArray, styleProp, stylePropNavShape }) {
 	const {	socket,
 			dropdown,
 			setDropdown,
@@ -32,7 +32,7 @@ function NavChat({ titleName, menu, children, channel_id, setMessagesArray }) {
 
 	return(
 		<nav className="title-nav">
-			<ul className="display-wrapper">
+			<ul className={ "display-wrapper " + stylePropNavShape }>
 				<li>
 					{ renderChat && goBack }
 				</li>
@@ -42,7 +42,7 @@ function NavChat({ titleName, menu, children, channel_id, setMessagesArray }) {
 				</li>
 
 				<li><button
-					className="button-nav-menu button-nav"
+					className={ "button-nav-menu button-nav " + styleProp }
 					onClick={ handleDropDown } >
 					{ menu }
 					</button>

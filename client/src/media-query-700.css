@@ -1,16 +1,25 @@
 @media screen and (min-width: 700px) {
 
+	body {
+		--profile-image-circle: 3rem;
+	}
+
+	.display-none-menu {
+		display: none;
+	}
+
+	.nav-shape-channels {
+		border-radius: 0 0 0 var(--nav-chat-bar-height);
+	}
+
+	
+
 	.title-nav {
 		position: relative;
 	}
 
 	.go-back {
 		display: none;
-	}
-
-	.new-channel-div {
-		bottom: 0;
-		left: 0;
 	}
 
 	.input-form {
@@ -31,9 +40,16 @@
 		min-height: 100vh;
 	}
 
-	.channel-list {
+	.channel-list-section {
 		height: 100%;
+		overflow: hidden;
+		padding: var(--nav-chat-bar-height) 0px 60px 0px;
+	}
+
+	.channel-list {
 		overflow-y: auto;
+		padding: 0px 20px 0px 10px;
+
 	}
 
 	.chat-main {
@@ -62,6 +78,16 @@
 	    height: 100%;
 	}
 
+	
+
+
+
+
+	/*Chat-Area*/
+	.nav-shape-chat-area {
+		border-radius: 0 0 var(--nav-chat-bar-height) 0;
+	}
+
 	.chat-area {
 	    height: 100%;
 	    position: relative;
@@ -72,11 +98,6 @@
 		display: block;
 		height: 100%;
 	    position: relative;
-	}
-
-	.channels-nav-bar {
-		position: absolute;
-		width: 100%;
 	}
 
 	.chat-area-nav-chat {
@@ -91,13 +112,24 @@
 		height: 100%;
     	width: 100%;
     	position: relative;
-    	
+		padding: var(--nav-chat-bar-height) 0px calc(var(--input-chat-height) + 5px) 0px;
+	}
+
+	.message-section::before {
+		content: "";
+		position: absolute;
+		width: 2px;
+		height: 100%;
+		/*z-index: 30;*/
+		background-color: var(--text-js-dark-theme);
+		top: 0;
 	}
 
 	.message-area {
 		height: 100%;
     	overflow-y: auto;
-    	
+    	padding-top: 13px;
+    	padding-bottom: 13px;
 	}
 
 	.chat-area-input-section {
@@ -106,12 +138,50 @@
 	    left: 0;
 	    width: 100%;
 	    z-index: 99;
+	    padding: 5px 0px 5px 10px;
 	}
+	/*Chat-Area END*/
+
+
 
 	/*changing the shape of the new channel form*/
+	.channels-nav-bar {
+		position: absolute;
+		width: 100%;
+	}
+
+	.new-channel-section {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background-color: var(--text-js-dark-theme);
+		overflow: hidden;
+	}
+
+	.new-channel-div {
+		position: relative;
+		padding: 5px 10px 5px 20px;
+	}
+
+	.new-channel-form {
+		margin: 0 0 0 40px;
+		/*bottom: 0;*/
+		bottom: 60px;
+	}
+
 	.new-channel-form button {
 		border-radius: 0px 0px 30px 0px;
 	    z-index: 99;
+	}
+
+	.new-channel-button {
+		font-size: 2.5rem;
+		height: 3rem;
+		width: 3rem;
+	}
+
+	.channel-name {
+		font-size: 1.3rem;
 	}
 	
 }

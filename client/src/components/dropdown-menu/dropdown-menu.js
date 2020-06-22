@@ -1,9 +1,9 @@
 import React from 'react';
 import './dropdown-menu.css';
 
-function DropdownMenu({ children }) {
+function DropdownMenu({ children, styleProp }) {
 	return (
-		<div className="dropdown">
+		<div className={ "dropdown " + styleProp }>
 			<ul className="dropdown-menu">
 				{ children }
 			</ul>

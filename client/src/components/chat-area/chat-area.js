@@ -124,6 +124,7 @@ const ChatArea = () => {
 				menu="..."
 				channel_id={ channelRender.channel_id }
 				setMessagesArray={ setMessagesArray }
+				stylePropNavShape="nav-shape-chat-area"
 				>
 					<DropdownMenu>
 						<Switch />
