@@ -7,7 +7,7 @@ import { GlobalContext } from '../../context';
 import '../../assets/css/main-styles.css';
 
 function Navigation({ homeLogo }) {
-	const { isItDark, setIsItDark } = useContext(GlobalContext);
+	const { isItDark } = useContext(GlobalContext);
 
 	return(
 		<div>

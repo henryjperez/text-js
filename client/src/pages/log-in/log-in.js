@@ -132,13 +132,6 @@ const Login = () => {
 				</div>
 			</section>
 			<section className="footer">
-				<div className="icons">
-					<a href="#" className="facebook"></a>
-					<a href="#" className="twitter"></a>
-					<a href="#" className="pinterest"></a>
-					<a href="#" className="instagram"></a>
-					<a href="#" className="youtube"></a>
-				</div>
 				<div>
 					<ul>
 						<h1>Text.js</h1>

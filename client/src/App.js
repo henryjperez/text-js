@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Login from './pages/log-in/log-in';
 import Chat from './pages/chat/chat';
@@ -12,13 +12,13 @@ const App = () => {
 
 	return (
 	<ContextProvider>
-		<main>
-			<Router>
+		<Router>
+			<Switch>
 				<Route path="/" exact component={ Login } />
 				<Route path="/signup" component={ SignUp } />
 				<Route path="/@me" component={ Chat } />
-			</Router>
-		</main> 
+			</Switch>
+		</Router> 
 	</ContextProvider>
 	);
 }

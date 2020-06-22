@@ -38,7 +38,7 @@ const ChatArea = () => {
 					setMessagesArray(data.messages);
 				}
 			} )
-			.then(()=> handleScrollToBottom())
+			.then( ()=> handleScrollToBottom() )
 			.catch( err => console.log('error in getting the channels, brah') );
 
 					//----------------------------------------
@@ -100,7 +100,17 @@ const ChatArea = () => {
 	
 	function handleScrollToBottom() {
 		const $messageArea = document.querySelector('.message-area');
-		$messageArea.scrollIntoView(false);
+		
+		const mq = window.matchMedia('(min-width: 700px)');
+		
+		if (mq.matches) {
+			console.log("yes matches")		
+			$messageArea.scrollTop = $messageArea.scrollHeight;
+		} else {
+			console.log("no natch")
+			$messageArea.scrollIntoView(false);
+		}
+		
 	}
 
 	

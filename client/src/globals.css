@@ -26,7 +26,6 @@
 }
 
 body {
-	/*background: var(--body-dark);*/
 	font-family: sans-serif;
 }
 
@@ -55,17 +54,4 @@ button:hover {
 	--own-message-color: linear-gradient(to right, #f6f7f8 0%, #20a4f3 100%);
 	--nav-bar-buttons-gradian: linear-gradient(to top, #f6f7f8 0%, #20a4f3 100%);
 	--not-own-message-color: linear-gradient(to right, #ff3452 0%, #f6f7f8 100%);
-}
-
-
-
-
-
-/*------------------Responsive Design @media queries------------------------*/
-
-@media screen and (min-width: 1024px) {
-	.login-page {
-		display: grid;
-	}
-
 }
