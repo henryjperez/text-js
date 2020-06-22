@@ -1,0 +1,26 @@
+{
+  "name": "believe.js",
+  "version": "0.0.1",
+  "description": "A Super Mega Awesome Private Social Network",
+  "main": "main.js",
+  "scripts": {
+  	"server:dev": "nodemon src/main.js",
+    "start": "node src/main.js"
+  },
+  "author": "Quentin Miaurantino",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.13",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,115 @@
+@media screen and (min-width: 700px) {
+
+	.title-nav {
+		position: relative;
+	}
+
+	.go-back {
+		display: none;
+	}
+
+	.new-channel-div {
+		bottom: 0;
+		left: 0;
+	}
+
+	.input-form {
+		position: relative;
+	}
+
+	.channel-list-wrapper-true {
+		display: block;
+		background-color: var(--body-dark);
+		height: 100%;
+		min-height: 100vh;
+	}
+
+	.channel-list-wrapper-false {
+		display: block;
+		background-color: var(--body-dark);
+		height: 100%;
+		min-height: 100vh;
+	}
+
+	.channel-list {
+		height: 100%;
+		overflow-y: auto;
+	}
+
+	.chat-main {
+		height: 100vh;
+		width: 100%;
+		position: relative;
+	}
+
+	.chat-main>div:nth-child(1) {
+	    position: absolute;
+	    width: 30%;
+	    height: 100%;
+	    overflow-y: auto;
+	    z-index: 30;
+	}
+
+	.chat-main>div:nth-child(2) {
+	    width: 100%;
+	    position: relative;
+	    height: 100%;
+	    padding-left: 30%;
+	}
+
+	.chat-wrapper {
+	    background: var(--body-dark);
+	    height: 100%;
+	}
+
+	.chat-area {
+	    height: 100%;
+	    position: relative;
+	    display: block;
+	}
+
+	.chat-area-none {
+		display: block;
+		height: 100%;
+	    position: relative;
+	}
+
+	.channels-nav-bar {
+		position: absolute;
+		width: 100%;
+	}
+
+	.chat-area-nav-chat {
+		position: absolute;
+	    width: 100%;
+	    left: 0;
+	    top: 0;
+	    z-index: 99;
+	}
+
+	.message-section {
+		height: 100%;
+    	width: 100%;
+    	position: relative;
+	}
+
+	.message-area {
+		height: 100%;
+    	overflow-y: auto;
+	}
+
+	.chat-area-input-section {
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    width: 100%;
+	    z-index: 99;
+	}
+
+	/*changing the shape of the new channel form*/
+	.new-channel-form button {
+		border-radius: 0px 0px 30px 0px;
+	    z-index: 99;
+	}
+	
+}

@@ -1,0 +1,18 @@
+.chat-area-none {
+	display: none;
+}
+
+.chat-area {
+	height: 100vh;
+	background: var(--body-dark);
+}
+
+.message-area {
+	background: var(--body-dark);
+	padding-top: var(--nav-chat-bar-height);
+	padding-bottom: calc(var(--input-chat-height) * 1.5 );
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 100%;
+}

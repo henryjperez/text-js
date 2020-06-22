@@ -1,0 +1,27 @@
+.new-channel-div {
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+}
+
+.new-channel-button {
+	width: var(--profile-image-circle);
+	height: var(--profile-image-circle);
+	max-height: var(--profile-image-circle);
+	max-width: var(--profile-image-circle);
+	border-radius: 50%;
+	border: none;
+	font-size: 3rem;
+	font-weight: bold;
+	background-color: var(--button-new-channel);
+	color: var(--dark-them-font-color);
+	user-select: none;
+	transition: .5s;
+	will-change: transform;
+}
+
+.new-channel-button-true {
+	transform: rotate(135deg);
+	transition: .5s;
+	will-change: transform;
+}

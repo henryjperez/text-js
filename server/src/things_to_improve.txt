@@ -1,0 +1,27 @@
+===> validation, specially in the get requests-- to prevent that malicious code gets inside the server.
+
+===> mongoose Schemas, to nest things more quickly using things like the _id generator of mongoose to push more quickly the elements into the arrays.
+
+===> check that all the files are well written and don't have any DEV or unnecessary comments, etc.
+
+===> make the code more organize and readable.
+
+===> again, the validation logic.
+
+===> the PUT, DELETE, etc, methods to handle.
+
+===> limit the size of the username and password length, with the validators, etc.
+
+===> how I handling dates in the models and the message display.
+
+===> check out the routes of the APIs to see if they are using the right validations on them.
+
+===> generate a new to token for the new user ('/signup').
+
+===> redirecting routes.
+
+===> adding images and status default in the database.
+
+===> image rendering.
+
+===> socket.io event listening in different routes of the API.

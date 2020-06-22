@@ -1,0 +1,30 @@
+.message {
+	margin: .3em 0;
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 20%;
+	margin-right: 5%;
+	color: var(--dark-them-font-color);
+	position: relative;
+}
+
+.message.not-own{
+	justify-content: flex-start;
+	margin-right: 20%;
+	margin-left: 5%;
+}
+
+.message>p {
+	max-width: 100%;
+	word-wrap: break-word;
+	display: block;
+	padding: 20px;
+	background-image: var(--own-message-color);
+	border-radius: 20px 20px 0px 20px;
+	position: relative;
+}
+
+.message.not-own>p {
+	background-image: var(--not-own-message-color);
+	border-radius: 0px 20px 20px 20px;
+}

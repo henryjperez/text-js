@@ -1,0 +1,52 @@
+//-mixins
+@mixin clearfix{
+	&:after{
+		content:"";
+		display: block;
+		clear: both;
+	}
+}
+
+@mixin mQW($screen...){
+
+	@if length($screen)>1{
+		
+		@if nth($screen,1) == 'max'{
+			@media screen and (max-width: nth($screen,2)){
+				@content;
+			}
+		}
+
+
+		@if nth($screen,1) == 'min'{
+			@media screen and (min-width: nth($screen,2)){
+				@content;
+			}
+		}
+
+		@if nth($screen,1) != 'max' and nth($screen,1) != 'min' {
+			@media screen and (max-width: nth($screen,1)) and (min-width: nth($screen,2)) {
+				@content;
+			}
+		}
+
+	}
+}
+
+@mixin mQMD(){
+	@include mQW('max',1000px){
+		@content
+	}
+}
+
+@mixin mQSM(){
+	@include mQW('max',780px){
+		@content
+	}
+}
+
+@mixin mQXS(){
+	@include mQW('max',520px){
+		@content
+	}
+}

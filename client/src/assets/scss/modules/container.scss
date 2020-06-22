@@ -1,0 +1,312 @@
+@import "mixins.scss";
+@import "basics.scss";
+
+.btn {
+	display: block;
+	padding: 7px 15px;
+	font-size: .8rem;
+	background-color: $clr-5;
+	color: $clr-4;
+	border-radius: 15px;
+
+	&:hover {
+		background-color: $clr-2;
+		color: $clr-1;
+	}
+}
+
+.block-container {
+	width: 90%;
+	margin: auto;
+	padding: 0px 15px;
+}
+
+//nav-bar
+
+@mixin imageContainer() {
+	width: 100%;
+	&>img {
+		width: 100%;
+		height: 50px;
+	}
+}
+
+.nav-bar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: transparentize($clr-1, .15);
+	z-index: 99;
+
+	&>div {
+		padding: 10px 15px;
+		width: 90%;
+		position: relative;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&>div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+
+
+			&:nth-child(1) {
+				width: 20%;
+				.logo {
+					@include imageContainer();
+				}
+			} 
+
+			&:nth-child(2) {
+				width: 80%;
+				display: flex;
+				justify-content: flex-end;
+
+				.menu-bar {
+					.sign-up {
+						//background-color: $clr-1;
+					}
+				}
+			}
+		}
+	}
+}
+
+//Login Landing Page
+
+.login-page {
+	display: flex;
+	flex-direction: column;
+	background: var(--body-dark);
+}
+
+.banner {
+	display: block;
+	width: 100%;
+	background-color: var(--dark-them-font-color);
+	
+	.background-mask {
+		width: 100%;
+		height: 70vh;
+
+		&>div {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			background-color: var(--body-dark);
+
+			&::before, &::after {
+				content: "";
+				position: absolute;
+			}
+			&::before {
+				width: 100%;
+				height: 100%;
+				background-image: url('../img/landing-image.png');
+				background-position: center;
+				background-size: cover;
+			}
+		}
+	}
+	.block-container {
+		&>div {
+			padding: 30px 0px;
+			text-align: center;
+
+			&>div {
+				display: flex;
+				justify-content: center;
+
+				&>a {
+					max-width: 300px;
+					width: 100%;
+				}
+			}
+
+			.text-js-comments {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-self: flex-start;
+				padding: 30px 0;
+
+				&>div {
+					color: var(--body-dark);
+					margin-top: 30px;
+					max-width: 200px;
+
+					&>h3 {
+						font-size: 1.3rem;
+					}
+
+					&>p {
+						opacity: 0.8;
+					}
+				}
+			}
+		}
+	}
+}
+
+.login-block {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	
+	.me {
+		flex-grow: 2;
+		background-color: var(--body-dark);
+		width: 100%;
+		text-align: center;
+		padding: 40px 20px;
+		word-wrap: break-word;
+		max-width: 300px;
+
+		&>h2 {
+			color: var(--dark-them-font-color);
+		}
+
+		&>img {
+			height: 300px;
+			width: 200px;
+		}
+	}
+
+	.login-wrapper {
+		min-width: 300px;
+		flex-grow: 8;
+		display: flex;
+		flex-direction: column;
+		padding-top: 70px;
+		padding: 0 5%;
+
+		&>h1 {
+			color: var(--dark-them-font-color);
+		}
+
+		&>form {
+			justify-content: center;
+			align-items: center;
+			width: 80%;
+			margin: auto;
+
+			&>input, button {
+				width: 100%;
+				padding: 0 5%;
+				height: var(--input-chat-height);
+				border: none;
+				/*border-radius: .5em;*/
+				margin: 2px 0;
+			}
+
+			&>input[type=text] {
+				border-radius: 0 var(--input-chat-height) 0 0;				
+			}
+
+			&>button {
+				color: var(--dark-them-font-color);
+				background: var(--text-js-dark-theme);
+				border-radius: 0 0 var(--input-chat-height) var(--input-chat-height);
+			}
+		}
+	}
+}
+
+
+.footer {
+	color: var(--body-dark);
+	background-color: var(--dark-them-font-color);
+	margin-top: 50px;
+	display: flex;
+	padding: 40px 0px 20px 0px;
+	justify-content: center;
+	align-items: center;
+
+	&>div>ul {
+		margin-bottom: 30px;
+		
+		&>li {
+			display: flex;
+			position: relative;
+			width: 100%;
+			justify-content: center;
+			margin: 10px 0;
+		}
+
+		&>h1 {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 30px;
+			font-weight: bold;
+		}
+	}
+
+	&>div>span {
+		opacity: 0.6;
+	}
+}
+
+
+
+
+
+//sign-up-page
+
+.signup-page {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 20% 0;
+	background: var(--body-dark);
+	min-height: 100vh;
+
+	.sign-form {
+		height: 60%;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding: 5% 15%;
+
+		&>h1 {
+			color: var(--dark-them-font-color);
+		}
+
+		>form {
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			text-align: center;
+
+			&>input, button {
+				width: 100%;
+				padding: 0 5%;
+				height: var(--input-chat-height);
+				border: none;
+				/*border-radius: .5em;*/
+				margin: 2px 0;
+			}
+
+			&>input[type=text] {
+				border-radius: 0 var(--input-chat-height) 0 0;				
+			}
+
+			&>button {
+				color: var(--dark-them-font-color);
+				background: var(--text-js-dark-theme);
+				border-radius: 0 0 var(--input-chat-height) var(--input-chat-height);
+			}
+
+			&>p {
+				color: var(--dark-them-font-color);
+			}
+		}
+	}
+}

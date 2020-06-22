@@ -1,0 +1,39 @@
+===> the routing of the pages.
+
+===> light mode/ dark mode.
+
+===> manage the time message.
+
+===> print part of the last message sent in the channel component.
+
+===> search for how to set a default value for a function property.
+
+===> the "key" attribute on the message and channel's array.
+
+===> colors.
+
+===> the "go-back" button.
+
+===> color, like putting radians.
+
+===> font family.
+
+===> profile pictures;
+
+===> avoid overflow and resizing in the chat navigation bar.
+
+===> life-cycle of the components.
+
+===> distribute the chat space better, by sections.
+
+===> play with transparency.
+
+===> implementing the fetch request as zoom as the page start loading.
+
+===> user info.
+
+===> image rendering.
+
+===> sending images.
+
+===> handle login to catch errors.

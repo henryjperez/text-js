@@ -1,0 +1,217 @@
+const { Schema, model } = require('mongoose');
+
+const roomSchema = new Schema({
+	channelname: { //find a way to make the channel/chat name-
+		type: String, //-customizable
+		require: true,
+		trim: true
+
+	},
+	room_name: {
+
+
+	},
+	channels:{},
+	author: {
+		type.Schema.Types.ObjectId,
+		ref: 'User',
+		require: true
+
+	},
+
+});
+
+
+module.exports = model('Room', roomSchema);
+
+/*app.use((req, res, next) => { //CORS Access using Express.
+	res.setHeader('Access-Control-Allow-Origin', '*');
+	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
+	res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+	next();
+FOR app.js
+});*/
+
+
+/*const errors = validationResult(req);
+	if (!errors.isEmpty()) {
+		return res
+			.status(422)
+			.json({
+				server_message: 'Validation went wrong',
+				errors: errors.array()
+
+			})
+
+	}
+	const { username, email, password } = req.body;
+	bcrypt
+		.hash(password, 12)
+		.then(hashedPassword => {
+			const newUser = new User ({
+				username,
+				email,
+				password: hashedPassword
+
+			});
+			return newUser.save();
+		})
+		.then(result => {
+			res.status(201).json({ server_message: 'User created!!', post: result })
+
+		})
+		.catch(err => console.log('Error => ' + err))*/
+
+
+
+/*const socketsEvents = socket => {
+	console.log('Connection');
+
+	socket.on('send-message', msg => {
+		console.log(msg);
+		socket.broadcast.emit('message', msg);
+
+	});
+
+	socket.on('disconnect', event => {
+		console.log('Disconnection => ' + event);
+
+	});
+
+};
+
+
+module.exports = socketsEvents;
+*/
+
+
+
+
+/*/*require('dotenv').config();
+require('./database-connection');
+const socketIO = require('socket.io');
+const http = require('http');
+const app = require('./app');
+const socketsEvents = require('./sockets');
+
+const server = http.createServer(app);
+async function main() {
+	const server = await app.listen(app.get('port'));
+	const io = socketIO(server);
+
+	const io = require('./socket').init(server);
+
+		
+	io.on('connection', socket => {
+		console.log('connection');
+	});
+
+
+	server.listen(app.get('port'), () => 
+	console.log('Server in port ' + app.get('port'));
+
+	);
+
+		
+}
+
+
+main();*/*/
+
+
+
+
+
+
+
+function perrito(arr, element) {
+			let gg = [];
+			
+			if (element === '_id') {
+				for (let i = 0; i <= arr.length - 1; i++) {
+					gg.push(arr[i]._id);
+				}
+				return gg;
+
+			} else if (element === 'username') {
+				for (let i = 0; i <= arr.length - 1; i++) {
+					gg.push(arr[i].users);
+				}
+				return gg;
+			}
+
+		}
+
+
+
+
+const devRoute = require('./routes/dev-route');
+app.use('/api/dev', devRoute);
+const { Router } = require('express');
+const router = Router();
+
+async function perro() {
+	const io = await require('../socket').getIO();
+
+		io.on('connection', socket => {
+			console.log('perro');
+		});
+}
+
+// perro();
+setTimeout(perro, 5000);
+
+
+
+
+router.get("/", (req, res) => {
+	
+	console.log('hola');
+	console.log('end');
+	res.send({ response: "Server is up and running." }).status(200);
+});
+
+module.exports = router;
+
+
+
+
+
+ARRYS 
+/*let gg = [];
+
+				for (let i = 0; data.channels_id.length - 1 > 0; i++) {
+					// console.log(data.channels_id[i].users)
+					// gg.push(data.channels_id[i].users)
+					for (let j = data.channels_id[i].users.length - 1; j >= 0; j--) {
+						// console.log(data.channels_id[i].users[j].username)
+						// console.log(i, j, data.channels_id[i]._id)
+						
+						console.log('-------------------')
+						if (data.channels_id[i].users[j].username !== varUsername) {
+							console.log("data.channels_id[i].users[j].username")
+							console.log('||||||||||||||||||||||||||')
+							let pp ={ azulito: data.channels_id[i].users[j].username, qq:data.channels_id[i]._id };
+						console.log(pp)
+						gg.push(pp)
+							console.log("8888888888888888888888888888")
+
+						}
+					}
+				}
+
+				console.log(gg);*/
+
+
+
+
+
+function handleOnClickDrop(event) {
+		const rect = event.target.getBoundingClientRect();
+		const perrox = event.clientX - rect.left;
+		const cc = event.clientY - rect.top;
+		console.log("left: " + perrox, "top: " + cc)
+		if (perrox < 0 || cc < 0) {
+			setRenderChat(false)
+		}
+	}

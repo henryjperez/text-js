@@ -1,0 +1,71 @@
+:root {
+	--body-dark: #011627;
+	--text-js-dark-theme: #ff3366;
+	--channel-element-background-1: rgba(0, 0, 0, .1);
+	--dark-them-font-color: #f6f7f8;
+	--fated-font: rgba(255, 255, 255, .5);
+	--drop-menu: rgba(88, 111, 130, .2);
+	--input-chat-height: 50px;
+	--nav-chat-bar-height: 60px;
+	--channel-element-height: 80px;
+	--channel-element-border-radious: 30px;
+	--profile-image-circle: 60px;
+	--dropdown-height: 60px;
+	--button-new-channel: #20a4f3;
+	--own-message-color: linear-gradient(to right, #20a4f3 0%, #ff3366 100%);
+	--nav-bar-buttons-gradian: linear-gradient(to top, #20a4f3 0%, #ff3366 100%);
+	--not-own-message-color: linear-gradient(to right, #2ec4b6 0%, #2ec4b6 100%);
+	--switch-mode: linear-gradient(to right, #4796d2 0%, #37ce8f 100%);
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/*background: var(--body-dark);*/
+	font-family: sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+
+
+/*----------------Dark/Light mode classes*/
+
+.it-is-dark-false {
+	--text-js-dark-theme: #20a4f3;
+	--body-dark: #f6f7f8;
+	--dark-them-font-color: #011627;
+	--button-new-channel: #ff3452;
+	--switch-mode: linear-gradient(to right, #f6f7f8 0%, #011627 100%);
+	--own-message-color: linear-gradient(to right, #f6f7f8 0%, #20a4f3 100%);
+	--nav-bar-buttons-gradian: linear-gradient(to top, #f6f7f8 0%, #20a4f3 100%);
+	--not-own-message-color: linear-gradient(to right, #ff3452 0%, #f6f7f8 100%);
+}
+
+
+
+
+
+/*------------------Responsive Design @media queries------------------------*/
+
+@media screen and (min-width: 1024px) {
+	.login-page {
+		display: grid;
+	}
+
+}

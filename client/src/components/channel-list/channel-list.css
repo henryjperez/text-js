@@ -1,0 +1,16 @@
+.channel-list-wrapper-false {
+	background-color: var(--body-dark);
+	height: 100%;
+	min-height: 100vh;
+}
+
+.channel-list {
+	color: var(--dark-them-font-color);
+	padding-bottom: calc(var(--channel-element-height) * 1.5);
+	padding-top: calc(var(--nav-chat-bar-height) + 2%);
+	background-color: var(--body-dark);
+}
+
+.channel-list-wrapper-true {
+	display: none;
+}

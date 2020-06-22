@@ -1,0 +1,35 @@
+.input-form {
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: var(--input-chat-height);
+}
+
+.input-text {
+	border: none;
+	border-radius: 0;
+	padding-left: 10px;
+	padding: auto;
+	width: 100%;
+	font-size: 1.2em;
+	word-wrap: break-word;
+	border-radius: 25px;
+}
+
+.send-button {
+	color: #fff;
+	background: var(--text-js-dark-theme);
+	border: none;
+	height: var(--input-chat-height);
+	width: var(--input-chat-height);
+	min-width: var(--input-chat-height);
+	border-radius: 50%;
+	text-align: center;
+}
+
+.input-text:focus {
+	outline: none;
+}

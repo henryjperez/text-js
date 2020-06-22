@@ -1,0 +1,54 @@
+.channel {
+	height: var(--channel-element-height);
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: center;*/
+	/*border: 3px solid red;*/
+}
+
+.channel-wrapper {
+	display: flex;
+	background: var(--channel-element-background-1);
+	border-radius: var(--channel-element-border-radious);
+}
+
+.crop-picture {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+	border-radius: var(--channel-element-border-radious);
+	min-height: var(--profile-image-circle);
+	min-width: var(--profile-image-circle);
+	margin-right: 3%;
+}
+
+.profile-picture {
+	
+	border-radius: 50%;
+	min-height: var(--profile-image-circle);
+	min-width: var(--profile-image-circle);
+	max-height: var(--profile-image-circle);
+	max-width: var(--profile-image-circle);
+}
+
+.channel-preview {
+	overflow: hidden;
+	white-space: nowrap;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.channel-name {
+	font-family: ubuntu;
+}
+
+.list-line {
+	width: 75%;
+	margin-left: 12.5%;
+	border: 1px solid var(--fated-font);
+	color: rgba();
+}
