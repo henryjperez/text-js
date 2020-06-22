@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/MiauMiauRobotics/Text.js/static/css/main.08bda554.chunk.css",
-    "main.js": "/MiauMiauRobotics/Text.js/static/js/main.418bec1b.chunk.js",
-    "main.js.map": "/MiauMiauRobotics/Text.js/static/js/main.418bec1b.chunk.js.map",
-    "runtime-main.js": "/MiauMiauRobotics/Text.js/static/js/runtime-main.4ef1abc0.js",
-    "runtime-main.js.map": "/MiauMiauRobotics/Text.js/static/js/runtime-main.4ef1abc0.js.map",
-    "static/js/2.efaed79e.chunk.js": "/MiauMiauRobotics/Text.js/static/js/2.efaed79e.chunk.js",
-    "static/js/2.efaed79e.chunk.js.map": "/MiauMiauRobotics/Text.js/static/js/2.efaed79e.chunk.js.map",
-    "index.html": "/MiauMiauRobotics/Text.js/index.html",
-    "precache-manifest.e52beafa595ace24f805656267e4d041.js": "/MiauMiauRobotics/Text.js/precache-manifest.e52beafa595ace24f805656267e4d041.js",
-    "service-worker.js": "/MiauMiauRobotics/Text.js/service-worker.js",
-    "static/css/main.08bda554.chunk.css.map": "/MiauMiauRobotics/Text.js/static/css/main.08bda554.chunk.css.map",
-    "static/js/2.efaed79e.chunk.js.LICENSE.txt": "/MiauMiauRobotics/Text.js/static/js/2.efaed79e.chunk.js.LICENSE.txt",
-    "static/media/dark-mode-false.png": "/MiauMiauRobotics/Text.js/static/media/dark-mode-false.cc04f08c.png",
-    "static/media/dark-mode-true.png": "/MiauMiauRobotics/Text.js/static/media/dark-mode-true.6b470092.png",
-    "static/media/main-styles.css": "/MiauMiauRobotics/Text.js/static/media/landing-image.543a95de.png",
-    "static/media/textjs-logo-dark.svg": "/MiauMiauRobotics/Text.js/static/media/textjs-logo-dark.0bb90cf5.svg",
-    "static/media/textjs-logo-light.svg": "/MiauMiauRobotics/Text.js/static/media/textjs-logo-light.c7dfb388.svg"
+    "main.css": "/MiauMiauRobotics/Text.js/client/static/css/main.ebfb729c.chunk.css",
+    "main.js": "/MiauMiauRobotics/Text.js/client/static/js/main.0e1c98f9.chunk.js",
+    "main.js.map": "/MiauMiauRobotics/Text.js/client/static/js/main.0e1c98f9.chunk.js.map",
+    "runtime-main.js": "/MiauMiauRobotics/Text.js/client/static/js/runtime-main.99f9e624.js",
+    "runtime-main.js.map": "/MiauMiauRobotics/Text.js/client/static/js/runtime-main.99f9e624.js.map",
+    "static/js/2.3c27b035.chunk.js": "/MiauMiauRobotics/Text.js/client/static/js/2.3c27b035.chunk.js",
+    "static/js/2.3c27b035.chunk.js.map": "/MiauMiauRobotics/Text.js/client/static/js/2.3c27b035.chunk.js.map",
+    "index.html": "/MiauMiauRobotics/Text.js/client/index.html",
+    "precache-manifest.639d045585ebfb7529f8930600d40760.js": "/MiauMiauRobotics/Text.js/client/precache-manifest.639d045585ebfb7529f8930600d40760.js",
+    "service-worker.js": "/MiauMiauRobotics/Text.js/client/service-worker.js",
+    "static/css/main.ebfb729c.chunk.css.map": "/MiauMiauRobotics/Text.js/client/static/css/main.ebfb729c.chunk.css.map",
+    "static/js/2.3c27b035.chunk.js.LICENSE.txt": "/MiauMiauRobotics/Text.js/client/static/js/2.3c27b035.chunk.js.LICENSE.txt",
+    "static/media/dark-mode-false.png": "/MiauMiauRobotics/Text.js/client/static/media/dark-mode-false.cc04f08c.png",
+    "static/media/dark-mode-true.png": "/MiauMiauRobotics/Text.js/client/static/media/dark-mode-true.6b470092.png",
+    "static/media/main-styles.css": "/MiauMiauRobotics/Text.js/client/static/media/landing-image.543a95de.png",
+    "static/media/textjs-logo-dark.svg": "/MiauMiauRobotics/Text.js/client/static/media/textjs-logo-dark.0bb90cf5.svg",
+    "static/media/textjs-logo-light.svg": "/MiauMiauRobotics/Text.js/client/static/media/textjs-logo-light.c7dfb388.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ef1abc0.js",
-    "static/js/2.efaed79e.chunk.js",
-    "static/css/main.08bda554.chunk.css",
-    "static/js/main.418bec1b.chunk.js"
+    "static/js/runtime-main.99f9e624.js",
+    "static/js/2.3c27b035.chunk.js",
+    "static/css/main.ebfb729c.chunk.css",
+    "static/js/main.0e1c98f9.chunk.js"
   ]
 }
