@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/MiauMiauRobotics/Text.js/static/css/main.08bda554.chunk.css",
-    "main.js": "/MiauMiauRobotics/Text.js/static/js/main.3d97e4b3.chunk.js",
-    "main.js.map": "/MiauMiauRobotics/Text.js/static/js/main.3d97e4b3.chunk.js.map",
-    "runtime-main.js": "/MiauMiauRobotics/Text.js/static/js/runtime-main.4ef1abc0.js",
-    "runtime-main.js.map": "/MiauMiauRobotics/Text.js/static/js/runtime-main.4ef1abc0.js.map",
-    "static/js/2.61caaeae.chunk.js": "/MiauMiauRobotics/Text.js/static/js/2.61caaeae.chunk.js",
-    "static/js/2.61caaeae.chunk.js.map": "/MiauMiauRobotics/Text.js/static/js/2.61caaeae.chunk.js.map",
-    "index.html": "/MiauMiauRobotics/Text.js/index.html",
-    "precache-manifest.ac66c53a83ea83272fb39655c724b5e7.js": "/MiauMiauRobotics/Text.js/precache-manifest.ac66c53a83ea83272fb39655c724b5e7.js",
-    "service-worker.js": "/MiauMiauRobotics/Text.js/service-worker.js",
-    "static/css/main.08bda554.chunk.css.map": "/MiauMiauRobotics/Text.js/static/css/main.08bda554.chunk.css.map",
-    "static/js/2.61caaeae.chunk.js.LICENSE.txt": "/MiauMiauRobotics/Text.js/static/js/2.61caaeae.chunk.js.LICENSE.txt",
-    "static/media/dark-mode-false.png": "/MiauMiauRobotics/Text.js/static/media/dark-mode-false.cc04f08c.png",
-    "static/media/dark-mode-true.png": "/MiauMiauRobotics/Text.js/static/media/dark-mode-true.6b470092.png",
-    "static/media/main-styles.css": "/MiauMiauRobotics/Text.js/static/media/landing-image.543a95de.png",
-    "static/media/textjs-logo-dark.svg": "/MiauMiauRobotics/Text.js/static/media/textjs-logo-dark.0bb90cf5.svg",
-    "static/media/textjs-logo-light.svg": "/MiauMiauRobotics/Text.js/static/media/textjs-logo-light.c7dfb388.svg"
+    "main.css": "/Text.js/static/css/main.f20c47f7.chunk.css",
+    "main.js": "/Text.js/static/js/main.f51b5b39.chunk.js",
+    "main.js.map": "/Text.js/static/js/main.f51b5b39.chunk.js.map",
+    "runtime-main.js": "/Text.js/static/js/runtime-main.be0802f4.js",
+    "runtime-main.js.map": "/Text.js/static/js/runtime-main.be0802f4.js.map",
+    "static/js/2.7e5b3cf0.chunk.js": "/Text.js/static/js/2.7e5b3cf0.chunk.js",
+    "static/js/2.7e5b3cf0.chunk.js.map": "/Text.js/static/js/2.7e5b3cf0.chunk.js.map",
+    "index.html": "/Text.js/index.html",
+    "precache-manifest.6fad8e118fb050205ca4d174606dcfb4.js": "/Text.js/precache-manifest.6fad8e118fb050205ca4d174606dcfb4.js",
+    "service-worker.js": "/Text.js/service-worker.js",
+    "static/css/main.f20c47f7.chunk.css.map": "/Text.js/static/css/main.f20c47f7.chunk.css.map",
+    "static/js/2.7e5b3cf0.chunk.js.LICENSE.txt": "/Text.js/static/js/2.7e5b3cf0.chunk.js.LICENSE.txt",
+    "static/media/dark-mode-false.png": "/Text.js/static/media/dark-mode-false.cc04f08c.png",
+    "static/media/dark-mode-true.png": "/Text.js/static/media/dark-mode-true.6b470092.png",
+    "static/media/main-styles.css": "/Text.js/static/media/landing-image.543a95de.png",
+    "static/media/textjs-logo-dark.svg": "/Text.js/static/media/textjs-logo-dark.0bb90cf5.svg",
+    "static/media/textjs-logo-light.svg": "/Text.js/static/media/textjs-logo-light.c7dfb388.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ef1abc0.js",
-    "static/js/2.61caaeae.chunk.js",
-    "static/css/main.08bda554.chunk.css",
-    "static/js/main.3d97e4b3.chunk.js"
+    "static/js/runtime-main.be0802f4.js",
+    "static/js/2.7e5b3cf0.chunk.js",
+    "static/css/main.f20c47f7.chunk.css",
+    "static/js/main.f51b5b39.chunk.js"
   ]
 }
