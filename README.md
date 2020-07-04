@@ -1,4 +1,4 @@
-### Try it out, Sign Up and text to other users that you know => https://miaumiaurobotics.github.io/text-js/
+### Try it out => https://miaumiaurobotics.github.io/text-js/
 
 
 # Text.js
