@@ -77,5 +77,5 @@ The next generation of online messaging.
    
 # Creative Process Through Images
 
-![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
+![First HTML Document](./documentationProcess/1.jpg)
 
