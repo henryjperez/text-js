@@ -1,4 +1,4 @@
-###(https://miaumiaurobotics.github.io/text-js/)
+### Enter to the page => https://miaumiaurobotics.github.io/text-js/
 
 
 # Text.js
