@@ -1,32 +1,32 @@
 # Text.js
 The next generation of online messaging.
 
-##Abstraction
+## Abstraction
 Text.js an online messaging platform. Create a unique username, enter your email (for now, you can put anything you want, it doesn’t necessary work with a valid email at the moment) and put a password with a minimum length of five (5) characters. Every session last five hours (5h) before you need to enter your credentials again. You can change themes of the application between ‘dark’ and ‘light’ mode and the option will be stored in the browser through the localstorage API.
 
 ## Goals
-  Share messages instantly through the platform.
+	Share messages instantly through the platform.
 	Create a JavaScript full stack application.
   
 ## Technologies and Methods
-  React.js (Hooks).
-  Responsive Design.
-  Sass (CSS Pre-compiler).
-  CSS variables.
-  Local-Storage API.
-  Node.js.
-  Express.js.
-  Socket.io (Web-sockets).
-  Mongo DB (NoSQL).
-  Mongoose.
-  JSON Web Token (JWT).
-  Bcrypt.js.
-  DotEnv.
-  Express-Validator.
-  Rest API.
-  Heroku Cloud Services.
-  GIMP (to generate the images).
-  InkScape (to generate the SVGs).
+	React.js (Hooks).
+	Responsive Design.
+	Sass (CSS Pre-compiler).
+	CSS variables.
+	Local-Storage API.
+	Node.js.
+	Express.js.
+	Socket.io (Web-sockets).
+	Mongo DB (NoSQL).
+	Mongoose.
+	JSON Web Token (JWT).
+	Bcrypt.js.
+	DotEnv.
+	Express-Validator.
+	Rest API.
+	Heroku Cloud Services.
+	GIMP (to generate the images).
+	InkScape (to generate the SVGs).
   
 ## Structure
 	The server is hosted on Heroku and provides the endpoint to the frontend page that was made with React and is hosted on github pages.
