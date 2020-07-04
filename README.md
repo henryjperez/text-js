@@ -74,3 +74,8 @@ The next generation of online messaging.
    => Make the database queries more efficient (maybe even implementing a SQL database to the project).
     
    => Adding more layers of security to the server (specially the web-socket practices, and the CORS between server and client).
+   
+# Creative Process Through Images
+
+![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
+
