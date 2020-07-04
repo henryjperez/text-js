@@ -1,3 +1,5 @@
+# Welcome to Text.js
+
 ### Try it out => https://miaumiaurobotics.github.io/text-js/
 
 ## 'Light Mode'
