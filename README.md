@@ -77,5 +77,17 @@ The next generation of online messaging.
    
 # Creative Process Through Images
 
+![First HTML Document](./documentationProcess/0.png)
 ![First HTML Document](./documentationProcess/1.jpg)
-
+![First HTML Document](./documentationProcess/2.jpg)
+![First HTML Document](./documentationProcess/3.jpg)
+![First HTML Document](./documentationProcess/4.jpg)
+![First HTML Document](./documentationProcess/5.jpg)
+![First HTML Document](./documentationProcess/6.jpg)
+![First HTML Document](./documentationProcess/7.jpg)
+![First HTML Document](./documentationProcess/8.jpg)
+![First HTML Document](./documentationProcess/9.jpg)
+![First HTML Document](./documentationProcess/10.jpg)
+![First HTML Document](./documentationProcess/11.jpg)
+![First HTML Document](./documentationProcess/12.jpg)
+![First HTML Document](./documentationProcess/13.jpg)
