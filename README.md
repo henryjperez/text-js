@@ -4,11 +4,11 @@ The next generation of online messaging.
 ##Abstraction
 Text.js an online messaging platform. Create a unique username, enter your email (for now, you can put anything you want, it doesn’t necessary work with a valid email at the moment) and put a password with a minimum length of five (5) characters. Every session last five hours (5h) before you need to enter your credentials again. You can change themes of the application between ‘dark’ and ‘light’ mode and the option will be stored in the browser through the localstorage API.
 
-##Goals
+## Goals
   Share messages instantly through the platform.
 	Create a JavaScript full stack application.
   
-##Technologies and Methods
+## Technologies and Methods
   React.js (Hooks).
   Responsive Design.
   Sass (CSS Pre-compiler).
@@ -28,12 +28,12 @@ Text.js an online messaging platform. Create a unique username, enter your email
   GIMP (to generate the images).
   InkScape (to generate the SVGs).
   
-##Structure
-  The server is hosted on Heroku and provides the endpoint to the frontend page that was made with React and is hosted on github pages.
+## Structure
+	The server is hosted on Heroku and provides the endpoint to the frontend page that was made with React and is hosted on github pages.
 	The server accepts and stores a new user data ( username, email, password ), new channel data ( username of the receiver, message ) and a new message. It connects all users on real time through socket.io that listens to new channels and messages and deliver it to the right user without interfering with the rest.
 	The Mongo data base uses Mongoose to create schemas that link user to channels and channels to messages.
   
-  ##Things to improve
+## Things to improve
     Add profile pictures.
     Add a search bar for existence users (by email and username).
     Add date to the messages.
