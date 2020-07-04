@@ -1,4 +1,7 @@
-# Text.js (https://miaumiaurobotics.github.io/text-js/)
+###(https://miaumiaurobotics.github.io/text-js/)
+
+
+# Text.js
 The next generation of online messaging.
 
 ## Abstraction
