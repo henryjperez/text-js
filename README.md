@@ -3,9 +3,12 @@ The next generation of online messaging.
 
 ## Abstraction
   Text.js an online messaging platform.
-	=> Create a unique username, enter your email (for now, you can put anything you want, it doesn’t necessary work with a valid email at the moment) and put a password with a minimum length of five (5) characters.
-	=> Every session last five hours (5h) before you need to enter your credentials again.
-	=> You can change themes of the application between ‘dark’ and ‘light’ mode and the option will be stored in the browser through the localstorage API.
+  
+  => Create a unique username, enter your email (for now, you can put anything you want, it doesn’t necessary work with a valid email at the moment) and put a password with a minimum length of five (5) characters.
+	
+  => Every session last five hours (5h) before you need to enter your credentials again.
+	
+  => You can change themes of the application between ‘dark’ and ‘light’ mode and the option will be stored in the browser through the localstorage API.
 
 ## Goals
 	Share messages instantly through the platform.
