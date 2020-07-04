@@ -1,5 +1,10 @@
 ### Try it out => https://miaumiaurobotics.github.io/text-js/
 
+## 'Light Mode'
+!['Light Mode'](./documentationProcess/12.jpg)
+
+## 'Dark Mode'
+!['Dark Mode'](./documentationProcess/13.jpg)
 
 # Text.js
 The next generation of online messaging.
@@ -79,43 +84,43 @@ The next generation of online messaging.
 # Creative Process Through Images
 
 ## First Design of Text.js Ever!
-![First HTML Document](./documentationProcess/0.png)
+![First Design of Text.js Ever!](./documentationProcess/0.png)
 
 ## First HTML Document!
 ![First HTML Document](./documentationProcess/1.jpg)
 
 ## First React Model of Text.js
-![First HTML Document](./documentationProcess/2.jpg)
+![First React Model of Text.js](./documentationProcess/2.jpg)
 
 ## Playing with the colors and the channel's list
-![First HTML Document](./documentationProcess/3.jpg)
+![Playing with the colors and the channel's list](./documentationProcess/3.jpg)
 
 ## Dummy data to test the Chat-Area component
-![First HTML Document](./documentationProcess/4.jpg)
+![Dummy data to test the Chat-Area component](./documentationProcess/4.jpg)
 
-## Identity Crisis...
-![First HTML Document](./documentationProcess/5.jpg)
+## An Identity Crisis...
+![An Identity Crisis...](./documentationProcess/5.jpg)
 
 ## Introducing the 'Dark Mode' into the application
-![First HTML Document](./documentationProcess/6.jpg)
+![Introducing the 'Dark Mode' into the application](./documentationProcess/6.jpg)
 
 ## New New-Message component
-![First HTML Document](./documentationProcess/7.jpg)
+![New New-Message component](./documentationProcess/7.jpg)
 
 ## Responsive design in the way
-![First HTML Document](./documentationProcess/8.jpg)
+![Responsive design in the way](./documentationProcess/8.jpg)
 
 ## Playing with the colors of the 'Light Mode'
-![First HTML Document](./documentationProcess/9.jpg)
+![Playing with the colors of the 'Light Mode'](./documentationProcess/9.jpg)
 
 ## Mobile First plus 'Dark Mode'
 ![First HTML Document](./documentationProcess/10.jpg)
 
 ## Landing Page on mobile
-![First HTML Document](./documentationProcess/11.jpg)
+![Mobile First plus 'Dark Mode'](./documentationProcess/11.jpg)
 
 ## 'Light Mode'
-![First HTML Document](./documentationProcess/12.jpg)
+!['Light Mode'](./documentationProcess/12.jpg)
 
 ## 'Dark Mode'
-![First HTML Document](./documentationProcess/13.jpg)
+!['Dark Mode'](./documentationProcess/13.jpg)
