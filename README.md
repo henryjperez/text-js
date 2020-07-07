@@ -9,7 +9,7 @@
 !['Dark Mode'](./documentationProcess/13.jpg)
 
 # Text.js
-The next generation of online messaging.
+The next generation of online messaging (100% Mobile First).
 
 ## Abstraction
   Text.js an online messaging platform.
