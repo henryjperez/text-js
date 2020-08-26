@@ -1,6 +1,6 @@
 # Welcome to Text.js
 
-### Try it out => https://miaumiaurobotics.github.io/text-js/
+### Try it out => https://henryjperez.github.io/text-js/
 
 ## 'Light Mode'
 !['Light Mode'](./documentationProcess/12.jpg)
