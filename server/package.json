@@ -4,7 +4,7 @@
   "description": "A Super Mega Awesome Private Social Network",
   "main": "main.js",
   "scripts": {
-  	"server:dev": "nodemon src/main.js",
+    "server:dev": "nodemon src/main.js",
     "start": "node src/main.js"
   },
   "author": "Quentin Miaurantino",
