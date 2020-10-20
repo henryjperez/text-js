@@ -105,7 +105,7 @@ const Login = () => {
 							</div>
 							<div className="text-block">
 								<h3>Why use Text.js?</h3>
-								<p>Is awesome. You can do things like send messages, receive messages... and much more!</p>
+								<p>It's awesome. You can do things like send messages, receive messages... and much more!</p>
 							</div>
 						</div>
 					</div>

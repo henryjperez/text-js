@@ -15,8 +15,8 @@ const App = () => {
 		<Router basename={ '/text-js' }>
 			<Switch>
 				<Route path="/" exact component={ Login } />
-				<Route path="/signup" component={ SignUp } />
-				<Route path="/@me" component={ Chat } />
+				<Route path="/signup" exact component={ SignUp } />
+				<Route path="/@me" exact component={ Chat } />
 			</Switch>
 		</Router> 
 	</ContextProvider>
