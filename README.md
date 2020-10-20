@@ -1,8 +1,15 @@
-### Try it out => https://miaumiaurobotics.github.io/text-js/
+# Welcome to Text.js
 
+### Try it out => https://henryjperez.github.io/text-js/
+
+## 'Light Mode'
+!['Light Mode'](./documentationProcess/12.jpg)
+
+## 'Dark Mode'
+!['Dark Mode'](./documentationProcess/13.jpg)
 
 # Text.js
-The next generation of online messaging.
+The next generation of online messaging (100% Mobile First).
 
 ## Abstraction
   Text.js an online messaging platform.
@@ -20,6 +27,7 @@ The next generation of online messaging.
 ## Technologies and Methods
 	React.js (Hooks).
 	Responsive Design.
+	Mobile First.
 	Sass (CSS Pre-compiler).
 	CSS variables.
 	Local-Storage API.
@@ -74,3 +82,47 @@ The next generation of online messaging.
    => Make the database queries more efficient (maybe even implementing a SQL database to the project).
     
    => Adding more layers of security to the server (specially the web-socket practices, and the CORS between server and client).
+   
+# Creative Process Through Images
+
+## First Design of Text.js Ever!
+![First Design of Text.js Ever!](./documentationProcess/0.png)
+
+## First HTML Document!
+![First HTML Document](./documentationProcess/1.jpg)
+
+## First React Model of Text.js
+![First React Model of Text.js](./documentationProcess/2.jpg)
+
+## Playing with the colors and the channel's list
+![Playing with the colors and the channel's list](./documentationProcess/3.jpg)
+
+## Dummy data to test the Chat-Area component
+![Dummy data to test the Chat-Area component](./documentationProcess/4.jpg)
+
+## An Identity Crisis...
+![An Identity Crisis...](./documentationProcess/5.jpg)
+
+## Introducing the 'Dark Mode' into the application
+![Introducing the 'Dark Mode' into the application](./documentationProcess/6.jpg)
+
+## New New-Message component
+![New New-Message component](./documentationProcess/7.jpg)
+
+## Responsive design in the way
+![Responsive design in the way](./documentationProcess/8.jpg)
+
+## Playing with the colors of the 'Light Mode'
+![Playing with the colors of the 'Light Mode'](./documentationProcess/9.jpg)
+
+## Mobile First plus 'Dark Mode'
+![First HTML Document](./documentationProcess/10.jpg)
+
+## Landing Page on mobile
+![Mobile First plus 'Dark Mode'](./documentationProcess/11.jpg)
+
+## 'Light Mode'
+!['Light Mode'](./documentationProcess/12.jpg)
+
+## 'Dark Mode'
+!['Dark Mode'](./documentationProcess/13.jpg)
